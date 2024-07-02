@@ -1,6 +1,12 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css';
+import './styles/components/layout/Header.css';
+import './styles/components/layout/Nav.css';
+import './styles/components/layout/Footer.css';
+import './styles/components/pages/Inicio.css';
+
 
 import Header from './componentes/Header';
 import Nav from './componentes/Nav';

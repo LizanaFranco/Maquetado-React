@@ -37,7 +37,6 @@ const Inicio = (props) => {
                         maiores dolores! </p>
                 </div>
                 <div class="IndexArticleDiv2"><img class="IndexArticleImg" src="images/hellblade.jpg" alt="Caratula de hellblade"></img></div>
-
             </article>
             <article class="IndexArticle">
                 <div class="IndexArticleDiv1">

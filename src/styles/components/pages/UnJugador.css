@@ -1,0 +1,45 @@
+/*---------------------1Jugador---------------------------------------*/
+.UnJugadorTitulo{
+    font-size: xx-large;
+    text-align: center;
+
+}
+.ListaJuegos1Jugador{
+    width: 90%;
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   text-align: center;
+   margin: auto;
+   margin-top: 1em;
+}
+.ArticleLista1Jugador{
+    width: 20%;
+    height:fit-content;
+    box-sizing: border-box;
+    align-content: center;
+    transition: 0.3s ease ;
+}
+.ArticleLista1Jugador:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) -10px 10px, rgba(0, 0, 0, 0.3) -15px 15px, rgba(0, 0, 0, 0.2) -20px 20px, rgba(0, 0, 0, 0.1) -25px 25px, rgba(0,0, 0, 0.05) -30px 30px;
+
+}
+.FigureLista1jugador{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+    transition: 1s ease;
+}
+.FigureLista1jugador:hover{
+    background-color: black;
+    opacity: 0.3;
+}
+.ImgFigureLista1Jugador{
+    width: 100%;
+    max-height: 20em;
+}
+

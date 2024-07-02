@@ -1,8 +1,10 @@
 
-
+import '../styles/components/pages/UnJugador.css';
 const UnJugador = (props) => {
     return (
+        
         <section class="ListaJuegos1Jugador">
+            
             <article class="ArticleLista1Jugador">
                 <figure class="FigureLista1jugador">
                     <img src="images/godofwar.jpg" alt="" class="ImgFigureLista1Jugador"></img>

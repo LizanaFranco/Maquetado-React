@@ -1,19 +1,19 @@
 import React from "react";
-import {Link} from "react-router-dom";
 
+import { NavLink } from "react-router-dom";
 const Nav = (props) => {
     return(
-        <nav class="dasjn">
+        <nav class="Nav">
             <ul class="ulNav">
-                <li class="liNav" id="liNavActivo"><Link to="/">Inicio</Link></li>
-                <li class="liNav"><Link to="UnJugador">Solo</Link></li>
-                <li class="liNav"><Link to="Multijugador">Multijugador</Link></li>
-                <li class="liNav"><Link to="AccionAventura">Accion/Aventura</Link></li>
-                <li class="liNav"><Link to="Disparos">Disparos</Link></li>
-                <li class="liNav"><Link to="Deportes">Deportes</Link></li>
-                <li class="liNav"><Link to="Estrategia">Estrategia</Link></li>
-                <li class="liNav"><Link to="Simulacion">Simulacion</Link></li>
-                <li class="liNav"><Link to="Otros">Otros</Link></li>
+                <li class="liNav"><NavLink to="/" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Inicio</NavLink></li>
+                <li class="liNav"><NavLink to="/UnJugador" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Solo</NavLink></li>
+                <li class="liNav"><NavLink to="/Multijugador" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Multijugador</NavLink></li>
+                <li class="liNav"><NavLink to="/AccionAventura" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Accion/Aventura</NavLink></li>
+                <li class="liNav"><NavLink to="/Disparos" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Disparos</NavLink></li>
+                <li class="liNav"><NavLink to="/Deportes" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Deportes</NavLink></li>
+                <li class="liNav"><NavLink to="/Estrategia" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Estrategia</NavLink></li>
+                <li class="liNav"><NavLink to="/Simulacion" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Simulacion</NavLink></li>
+                <li class="liNav"><NavLink to="/Otros" class="aNav" className={({ isActive})=> isActive? "Active" : "aNav"}>Otros</NavLink></li>
             </ul>
         </nav>
     );
